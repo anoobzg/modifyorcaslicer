@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "LightMaker L1",
+    "model_id": "my_toolchanger_01",
+    "nozzle_diameter": "0.4;0.2;0.6;0.8",
+    "machine_tech": "FFF",
+    "family": "LightMaker",
+    "bed_model": "Custom_350_bed.stl",
+    "bed_texture": "orcaslicer_bed_texture.svg",
+    "hotend_model": "",
+    "default_materials": "Generic PLA @LightMaker L1;Generic ABS @LightMaker L1;Generic PLA-CF @LightMaker L1;Generic PETG @LightMaker L1;Generic TPU @LightMaker L1;Generic ASA @LightMaker L1;Generic PC @LightMaker L1;Generic PVA @LightMaker L1;Generic PA @LightMaker L1;Generic PA-CF @LightMaker L1"
+}

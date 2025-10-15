@@ -1,0 +1,32 @@
+{
+    "type": "machine",
+    "name": "LightMaker L1 0.4 nozzle",
+    "inherits": "fdm_toolchanger_common",
+    "from": "system",
+    "setting_id": "LM001",
+    "instantiation": "true",
+    "nozzle_diameter": [
+        "0.4"
+    ],
+    "printer_model": "LightMaker L1",
+    "printer_variant": "0.4",
+    "bed_exclude_area": [
+    ],
+    "default_filament_profile": [
+        "Generic PLA @MyToolChanger"
+    ],
+    "default_print_profile": "0.40mm Extra Draft @MyToolChanger",
+    "enable_long_retraction_when_cut": "2",
+    "extruder_offset": [
+        "0x0"
+    ],
+    "machine_load_filament_time": "29",
+    "machine_unload_filament_time": "28",
+    "nozzle_height": "4.2",
+    "scan_first_layer": "1",
+    "upward_compatible_machine": [
+    ],
+    "machine_start_gcode": "",
+    "machine_end_gcode": "",
+    "change_filament_gcode": ""
+}

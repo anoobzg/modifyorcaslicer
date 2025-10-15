@@ -1,0 +1,13 @@
+extern const char* SLIC3R_APP_NAME = "@SLIC3R_APP_NAME@";
+extern const char* SLIC3R_APP_KEY = "@SLIC3R_APP_KEY@";
+extern const char* SLIC3R_VERSION = "@SLIC3R_VERSION@";
+extern const char* LightMaker_VERSION = "@LightMaker_VERSION@";
+#ifndef GIT_COMMIT_HASH
+    extern const char* GIT_COMMIT_HASH_STR = "0000000"; // 0000000 means uninitialized
+#else
+    extern const char* GIT_COMMIT_HASH_STR = "@GIT_COMMIT_HASH@";
+#endif
+extern const char* SLIC3R_BUILD_ID = "@SLIC3R_BUILD_ID@";
+extern const char* SLIC3R_BUILD_TIME = "@SLIC3R_BUILD_TIME@";
+extern const char* SLIC3R_RC_VERSION = "@SLIC3R_VERSION@";
+

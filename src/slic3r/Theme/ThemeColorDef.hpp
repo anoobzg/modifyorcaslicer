@@ -1,0 +1,25 @@
+#pragma once 
+
+#define DESIGN_SELECTOR_NOMORE_COLOR wxColour(248, 248, 248)
+#define DESIGN_GRAY900_COLOR wxColour(38, 46, 48)
+#define DESIGN_GRAY800_COLOR wxColour(50, 58, 61)
+#define DESIGN_GRAY600_COLOR wxColour(144, 144, 144)
+#define DESIGN_GRAY400_COLOR wxColour(166, 169, 170)
+
+//bind
+#define BIND_DIALOG_GREY200 wxColour(248, 248, 248)
+#define BIND_DIALOG_GREY800 wxColour(50, 58, 61)
+#define BIND_DIALOG_GREY900 wxColour(38, 46, 48)
+
+#define SELECT_MACHINE_GREY900 wxColour(38, 46, 48)
+#define SELECT_MACHINE_GREY600 wxColour(144,144,144)
+#define SELECT_MACHINE_GREY400 wxColour(206, 206, 206)
+#define SELECT_MACHINE_BRAND wxColour(0, 150, 136)
+#define SELECT_MACHINE_REMIND wxColour(255,111,0)
+#define SELECT_MACHINE_LIGHT_GREEN wxColour(219, 253, 231)
+
+#define SIDE_TOOLS_GREY900 wxColour(38, 46, 48)
+#define SIDE_TOOLS_GREY600 wxColour(144, 144, 144)
+#define SIDE_TOOLS_GREY400 wxColour(206, 206, 206)
+#define SIDE_TOOLS_BRAND wxColour(0, 150, 136)
+#define SIDE_TOOLS_LIGHT_GREEN wxColour(219, 253, 231)

@@ -1,0 +1,13 @@
+{
+    "type": "machine_model",
+    "name": "LightMaker L1",
+    "nozzle_diameter": "0.4",
+    "url": "",
+    "bed_model": "LightMaker-L1.stl",
+    "bed_texture": "LightMaker-L1.svg",
+    "default_bed_type": "Textured PEI Plate",
+    "family": "LightMaker",
+    "machine_tech": "FFF",
+    "model_id": "LightMaker-001",
+    "default_materials": "Generic PLA @MyToolChanger;Generic ABS @MyToolChanger"
+}

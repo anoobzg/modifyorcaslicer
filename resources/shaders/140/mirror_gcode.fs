@@ -1,0 +1,13 @@
+#version 140
+
+uniform vec4 uniform_color;
+uniform float emission_factor;
+uniform float alpha;
+
+// x = tainted, y = specular;
+in vec2 intensity;
+
+void main()
+{
+    gl_FragColor = vec4(vec3(intensity.y) + uniform_color.rgb * (intensity.x + emission_factor), alpha);
+}

@@ -1,0 +1,23 @@
+{
+    "type": "machine",
+    "setting_id": "GM_CUSTOM_002",
+    "name": "LightMaker L1 0.4 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_toolchanger_common",
+    "printer_model": "LightMaker L1",
+    "nozzle_diameter": [
+        "0.4",
+        "0.4",
+        "0.4",
+        "0.4"
+    ],
+    "printer_variant": "0.4",
+    "printable_area": [
+        "0x0",
+        "410x0",
+        "410x410",
+        "0x410"
+    ],
+    "printable_height": "400"
+}
