@@ -26,7 +26,7 @@ endif (MINGW)
 
 set_target_properties(LightMakerSlicer PROPERTIES OUTPUT_NAME "LightMakerSlicer")
 
-target_link_libraries(LightMakerSlicer libslic3r cereal::cereal boost_libs)
+target_link_libraries(LightMakerSlicer libslic3r cereal::cereal boost_libs lm_wx)
 
 if (APPLE)
 #    add_compile_options(-stdlib=libc++)

@@ -1,7 +1,7 @@
 #ifndef slic3r_GUI_Init_hpp_
 #define slic3r_GUI_Init_hpp_
 
-#include "framework_interface.h"
+#include "lm_wx/interface/framework_interface.h"
 #include "libslic3r/PrintConfig.hpp"
 #include <boost/filesystem.hpp>
 

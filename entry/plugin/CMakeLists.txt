@@ -2,7 +2,7 @@
 set(SRCS module.cpp
          LightSlicerPlugin.hpp
          LightSlicerPlugin.cpp)
-set(LIBS libslic3r_gui wxWidgets::wxWidgets boost_libs)
+set(LIBS libslic3r_gui wxWidgets::wxWidgets boost_libs lm_wx)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../src)
 
 if(CC_BC_WIN)

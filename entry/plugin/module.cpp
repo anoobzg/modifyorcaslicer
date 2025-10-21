@@ -1,4 +1,4 @@
-#include "framework_interface.h"
+#include "lm_wx/interface/framework_interface.h"
 #include "slic3r/GUI/AppAdapter.hpp"
 #include "LightSlicerPlugin.hpp"
 

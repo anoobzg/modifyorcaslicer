@@ -1,7 +1,7 @@
 #include "AppAdapter.hpp"
 #include "AppAdapter.hpp"
 #include "Frame/GUI_Init.hpp"
-#include "framework_interface.h"
+#include "lm_wx/interface/framework_interface.h"
 
 namespace Slic3r {
 namespace GUI {

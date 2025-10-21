@@ -15,7 +15,8 @@ if (${CMAKE_PROJECT_NAME} STREQUAL "LightMakerSlicer")
     __install_conan_requirements(MSVC_RUNTIME "dynamic")
 endif()
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/cmake_tools/interface/)
+# Framework interface is now provided by lm_wx library
+# include_directories(${CMAKE_CURRENT_SOURCE_DIR}/cmake_tools/interface/)
 
 if (NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   message(STATUS "No build type selected, default to Release")
