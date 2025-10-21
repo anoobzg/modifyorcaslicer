@@ -17,9 +17,9 @@ LightSlicerPlugin::~LightSlicerPlugin()
 
 }
 
-std::string LightSlicerPlugin::name()
+wxString LightSlicerPlugin::name() const
 {
-    return "LightSlicer";
+    return wxString("LightSlicerPlugin");
 }
 
 wxPanel* LightSlicerPlugin::panel() 
@@ -34,7 +34,9 @@ bool LightSlicerPlugin::init(std::string* error)
     AppAdapter* adapter = AppAdapter::inst();
 
     AppAdapterInitParams params;
-    params.resource_path = boost::dll::program_location().parent_path() / "plugins/LightSlicerPlugin/resources";
+    // Use framework root path + plugins/{name}/resources
+    wxString plugin_res = m_context->root_path() + "/plugins/" + name() + "/resources";
+    params.resource_path = plugin_res.ToStdString();
     adapter->init(m_context, params);
     return adapter->run();
 }

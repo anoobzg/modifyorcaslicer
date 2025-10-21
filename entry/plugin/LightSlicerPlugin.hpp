@@ -18,7 +18,7 @@ public:
     LightSlicerPlugin(FrameworkContext* context = nullptr);
     virtual ~LightSlicerPlugin();
  
-    virtual std::string name() override;
+    virtual wxString name() const override;
     virtual wxPanel* panel() override;
 
     virtual void execute_cmd(const std::string& cmd, const std::vector<std::string>& args) {}
