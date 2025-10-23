@@ -21,7 +21,7 @@
 #include "slic3r/GUI/Frame/OpenGLPanel.hpp"
 #include "slic3r/GUI/MainFrame.hpp"
 
-#include "lm_wx/interface/framework_interface.h"
+#include "lmwx/interface/framework_interface.h"
 
 namespace Slic3r {
 namespace GUI {

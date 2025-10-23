@@ -1,7 +1,7 @@
 #ifndef _slic3r_LightSlicerApp_hpp
 #define _slic3r_LightSlicerApp_hpp
 
-#include "lm_wx/interface/framework_interface.h"
+#include "lmwx/interface/framework_interface.h"
 #include <wx/app.h>
 
 namespace Slic3r {

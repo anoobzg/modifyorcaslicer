@@ -1,7 +1,7 @@
 #ifndef _Slic3r_LightSlicerPlugin_hpp
 #define _Slic3r_LightSlicerPlugin_hpp
 
-#include "lm_wx/interface/framework_interface.h"
+#include "lmwx/interface/framework_interface.h"
 
 class wxApp;
 namespace Slic3r {
